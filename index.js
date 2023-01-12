@@ -1,4 +1,5 @@
-const express = require("express");
+// const express = require("express");
+import express from "express";
 const router = require("./routers");
 
 const { connectToDb } = require("./database");
