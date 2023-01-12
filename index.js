@@ -12,7 +12,7 @@ app.use(router);
 app.use("/assets", express.static("assets"));
 
 connectToDb();
-const port = process.env.PORT || 9001;
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log("App is running at " + port);
 });
